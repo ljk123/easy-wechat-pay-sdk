@@ -1,0 +1,25 @@
+{
+  "name": "easyphp/wechat-pay-sdk",
+  "description": "微信支付SDK，官方版修改",
+  "keywords": [
+    "sdk",
+    "wechatpay",
+    "wechat-pay"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ljk",
+      "email": "303147190@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "wechat\\": "wechat"
+    }
+  },
+  "require": {
+    "php": ">5.5"
+  }
+}
